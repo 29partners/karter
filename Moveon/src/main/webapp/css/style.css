@@ -1,0 +1,439 @@
+/* ==========================================================================
+  Logo-Head - hero
+========================================================================== */
+.head {
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    position: relative;
+    padding: 60px 0 60px 0;
+    min-height: 800px;
+    background: rgb(40, 70, 102) url('../img/head-01.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+.head h1 {
+    margin: 200px 0 45px 0;
+    font-weight: 300;
+    font-size: 45px;
+}
+.head h1 span {
+    display: inline-block;
+    color: #a1a9b0;
+}
+.texture-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/grid.png);
+}
+.nav-head{
+    background-color: transparent;
+    z-index: 1000;
+    width: 100%;
+    padding: 60px 0 60px 0;
+}
+.nav-home.nav-head{
+    position: absolute;
+}
+/*nav.nav-head.absolute {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav.nav-head.style-1 .nav-wrap:not(.sticky), header.nav-head.style-3 .nav-wrap:not(.sticky) {
+    background: transparent;
+}
+div.transparent.top-bar, nav.bg-transparent {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}*/
+
+/* ==========================================================================
+Buttons
+========================================================================== */
+.use-btn {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 20px 50px;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #4b98a9;
+    font-size: 16px;
+}
+.use-btn:hover, .use-btn:focus {
+    background-color: #73d0da;
+    color: #fff;
+    text-decoration: none;
+}
+.learn-btn, .download-btn {
+    display: inline-block;
+    padding: 18px 46px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+}
+.learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
+    border-color: #73d0da;
+    color: #73d0da;
+    text-decoration: none;
+}
+.read-more-btn {
+    display: inline-block;
+    color: #323a45;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.read-more-btn i, .download-btn i {
+    margin-left: 5px
+}
+.showcase .download-btn {
+    margin-top: 50px
+}
+.download .download-btn {
+    margin-top: 25px
+}
+
+/* ==========================================================================
+Book Form Box
+========================================================================== */
+.input-control{
+    border-radius: 0;
+    border: 1px solid #fff;
+    font-size: 1.929em;
+    height: 62px;
+    padding: 6px 18px;
+    color: #808080;
+    background: none;
+}
+.book-container{
+    border: 1px solid #fff;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.book-container input{
+    display: inline-block;
+    margin-bottom:50px;
+}
+
+/* ==========================================================================
+Features List
+========================================================================== */
+.features-list {
+    padding: 130px 0
+}
+.features-list h1 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #24374b;
+    font-size: 20px;
+}
+.features-list p {
+    margin-bottom: 20px;
+    color: #778899;
+}
+.feature-content {
+    display: inline-block;
+    margin-left: 0;
+    width: 65%;
+}
+.feature-icon {
+    display: inline-block;
+    margin-right: 25px;
+    width: 90px;
+    height: 90px;
+    border: solid 2px #4e9ba3;
+    border-radius: 50%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 25px;
+    line-height: 90px;
+}
+.feature-icon i {
+    color: #4e9ba3
+}
+
+/* ==========================================================================
+Showcase
+========================================================================== */
+.showcase {
+    background: url('../img/statement1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.showcase h1 {
+    margin: 0 0 20px 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 31px;
+}
+.showcase h4{
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.showcase-wrap {
+    position: relative;
+    padding: 100px 0;
+    min-height: 350px;
+}
+.screenshots-intro {
+    padding: 170px 0 100px 0;
+    background-color: #f6f7f9;
+}
+
+/* ==========================================================================
+Navigation
+========================================================================== */
+.site-navigation {
+    border: none;
+    display: block;
+    float: right !important;
+}
+.site-navigation > ul > li{
+    height: 45px;
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+.site-navigation > ul > li > a{
+    font-size: 20px;
+    color: #FFF;
+    display: inline;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.site-navigation ul {
+    list-style: none;
+    padding: 10px 0 0 0;
+}
+.site-navigation > ul > li > a {
+    text-transform: uppercase;
+}
+.site-navigation > ul a {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 3px 0;
+    padding: 5px 0;
+    text-decoration: none !important;
+}
+.nav-home .site-navigation > ul > li > a{
+    color : #FFF;
+}
+.nav-search .site-navigation > ul > li > a{
+    color: #428bca;
+}
+.nav-home .site-navigation > ul > li:hover a{
+    color: #428bca;
+}
+
+a {
+    text-decoration: none;
+}
+.site-navigation > ul > li:after {
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    content: "";
+    display: block;
+    float: right;
+    height: 38px;
+    position: absolute;
+    right: -11px;
+    top: -7px;
+    width: 34px;
+}
+/* ==========================================================================
+Logo
+========================================================================== */
+.left-nav-align{
+    float:left;
+}
+.right-nav-align{
+    float : right;
+}
+.logo-wrap a{
+    text-decoration: none;
+}
+.nav-home .logo-wrap a:hover{
+    color: #FFF !important;
+}
+.nav-search .logo-wrap a:hover{
+    color: #428bca !important;
+}
+.truckon-rent-logo{
+    font-family: Yesteryear;
+    font-weight: 300;
+    font-size: 50px;
+}
+.nav-home .truckon-rent-logo{
+    color:#FFF;
+}
+.nav-search .truckon-rent-logo{
+    color: #428bca;
+}
+
+/*========================================================================
+Footer
+==========================================================================*/
+
+.footer{
+    background: #253340;
+    color: #fff;
+    padding-top: 40px;
+    font-size: 14px;
+    position: relative;
+    z-index: 20;
+}
+
+.footer .has-divider {
+    border-top: 1px solid #2b3b4a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer .footer-col .title {
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    -webkit-opacity: 0.9;
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.footer .footer-col.links li {
+    margin-bottom: 10px;
+}
+.footer .footer-col a {
+    color: #6d8dab;
+}
+a {
+    color: #ec6952;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+.footer .footer-col.links .fa {
+    margin-right: 5px;
+}
+
+.footer .footer-col.connect .social {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: 0 !important;
+    list-style: none;
+}
+.footer .footer-col.connect .social li {
+    margin-right: 10px;
+}
+.list-inline>li {
+    display: inline-block;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.footer .footer-col.connect .social li a .fa {
+    color: #b3b3b3;
+    font-size: 22px;
+}
+.footer .footer-col.connect .social li a:hover .fa {
+    color: #ec6952;
+}
+.footer .footer-col p {
+    color: #fff;
+}
+.footer p {
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+.footer .footer-col .navbar-form {
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer .footer-col.connect .btn-cta-primary {
+    background: #5d80a1;
+    border-color: #5d80a1;
+}
+.footer .footer-col .navbar-form .form-control {
+    -webkit-opacity: 0.9;
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+}
+.form-control {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    height: 40px;
+    border-color: #eeeeee;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.footer .download .download-list li .btn-ghost {
+    text-align: left;
+    -webkit-opacity: 0.6;
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    width: 230px;
+}
+.footer .footer-col a:hover {
+    color: #8da6bd;
+}
+a.btn-ghost:hover, .btn-ghost:hover {
+    background: #4a6781;
+    border: 1px solid #4a6781;
+    color: #fff;
+}
+.footer .contact .fa {
+    margin-right: 10px;
+    font-size: 20px;
+}
+a.btn-ghost, .btn-ghost {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff !important;
+    padding: 8px 20px;
+    vertical-align: middle;
+}
+.footer .download .download-list li {
+    margin-bottom: 15px;
+}
+a.btn-ghost .fa, .btn-ghost .fa {
+    margin-right: 10px;
+    font-size: 22px;
+}
+.book-cont{
+    text-align: center;
+}
