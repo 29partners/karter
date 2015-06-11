@@ -15,13 +15,12 @@
     		<mongo:client-options write-concern="NORMAL" />
   	</mongo:mongo-client>
 	
-	<mongo:repositories base-package="com.moveon.*.repositories" />
 	
 	<bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
 		<constructor-arg  name="mongo"	ref="mongo"/>
 		<constructor-arg name="databaseName" value="moveon"/>
 	</bean>
 	
-	
+	<bean id="orderRepo" class="com.moveon.rental.repositories.OrderRepositoryImpl" />
 
 </beans>

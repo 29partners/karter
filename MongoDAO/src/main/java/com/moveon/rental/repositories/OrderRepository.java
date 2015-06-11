@@ -1,9 +1,13 @@
 package com.moveon.rental.repositories;
 
-import org.springframework.data.mongodb.repository.MongoRepository;
+import java.util.List;
 
 import com.moveon.rental.model.Order;
 
-public interface OrderRepository extends MongoRepository<Order, String>{
+public interface OrderRepository{
+	
+	public void insert(Order order);
+	
+	public List<Order> findByMobileNumber(long mobile);
 
 }
