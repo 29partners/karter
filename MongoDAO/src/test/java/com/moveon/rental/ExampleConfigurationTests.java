@@ -2,8 +2,6 @@ package com.moveon.rental;
 
 import static org.junit.Assert.assertNotNull;
 
-import com.moveon.rental.Service;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class ExampleConfigurationTests {
 	
 	@Autowired
-	private Service service;
+	private MongoApp service;
 
 	@Test
 	public void testSimpleProperties() throws Exception {
