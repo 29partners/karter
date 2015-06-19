@@ -30,6 +30,12 @@
 	<mvc:resources mapping="/img/**" location="/img/"/>
 	<mvc:resources mapping="/fonts/**" location="/fonts/"/> 
 	
+	 <beans:bean id="jsonConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+        <beans:property name="prefixJson" value="false"/>
+        <beans:property name="supportedMediaTypes" value="application/json"/>
+    </beans:bean>
+	
+	
 	
 	 
 	 

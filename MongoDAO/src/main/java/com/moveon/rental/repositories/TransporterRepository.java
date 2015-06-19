@@ -1,14 +1,16 @@
 package com.moveon.rental.repositories;
 
-import org.springframework.data.mongodb.repository.Query;
+import java.util.List;
 
 import com.moveon.rental.model.Transporter;
 
 public interface TransporterRepository {
 	
-	@Query("{transporterName:?0}")
 	public Transporter findbyTransporterName(String transporterName);
 	
+	public List<Transporter> findallnear(double[] latlong,int maxDistance);
+	
+	public void insert(Transporter order);
 	
 
 }
